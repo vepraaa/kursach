@@ -21,27 +21,27 @@ class AppPages {
   static final routes = [
     GetPage(
       name: _Paths.HOME,
-      page: () => const HomePage(),
+      page: () => HomeView(),
       binding: HomeBinding(),
     ),
     GetPage(
       name: _Paths.MAIN,
-      page: () => const MainView(),
+      page: () => MainView(),
       binding: MainBinding(),
     ),
     GetPage(
       name: _Paths.LOGIN,
-      page: () => const LoginView(),
+      page: () => LoginView(),
       binding: LoginBinding(),
     ),
     GetPage(
       name: _Paths.REGISTR,
-      page: () => const RegistrView(),
+      page: () => RegistrView(),
       binding: RegistrBinding(),
     ),
     GetPage(
       name: _Paths.LICHKAB,
-      page: () => const LichkabView(),
+      page: () => LichkabView(),
       binding: LichkabBinding(),
     ),
   ];
